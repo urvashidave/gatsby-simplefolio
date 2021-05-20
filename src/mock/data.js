@@ -10,18 +10,17 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Urvashi Dave',
+  subtitle: 'Full stack Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'urvashi.jpg',
+  paragraphOne: 'Urvashi is a certified ScumMaster® (CSM®) software professional with 6+ years of compelling experience in delivering state-of-the-art high quality digital user web experiences using Enterprise Web and back-end technologies like PHP, Javascript, REACT JS, MSSQL, LINUX Scripting. She also enjoys learning new disruptive technologies.',
+
+  resume: 'https://www.dropbox.com/s/fdeq4r916regnly/Urvashi%27s%20Resume.pdf?dl=0', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,29 +28,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'TMS',
+    info: 'Terminal Management System',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/urvashidave/TMS6.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Kquest',
+    info: 'Demographics Application',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/urvashidave/Kquest.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Flyer Program',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/urvashidave/Flyerprogram.git', // if no repo, the button will not show up
   },
 ];
 
@@ -65,30 +64,22 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    
+    
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/urvashi-dave-webdeveloper',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/urvashidave',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
